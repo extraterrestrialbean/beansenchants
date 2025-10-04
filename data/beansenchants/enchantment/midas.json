@@ -1,0 +1,34 @@
+{
+    "description": "Curse of Midas",
+    "supported_items": "#minecraft:enchantable/mining",
+    "slots": ["mainhand"],
+    "weight": 1,
+    "anvil_cost": 2,
+    "min_cost": {
+        "base": 10,
+        "per_level_above_first": 3
+    },
+    "max_cost": {
+        "base": 35,
+        "per_level_above_first": 7
+    },
+    "max_level": 1,
+    "effects": {
+        "minecraft:hit_block": [
+            {
+            "effect": {
+                "type": "run_function",
+                "function": "beansenchants:enchantment/midas/change_block"
+            }
+        }
+    ],
+        "minecraft:tick": [
+            {
+                "effect": {
+                    "type": "run_function",
+                    "function": "beansenchants:enchantment/midas/dust"
+                }
+        }
+    ]
+    }
+}

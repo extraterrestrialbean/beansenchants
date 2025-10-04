@@ -1,0 +1,11 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "components": {
+      "minecraft:enchantments": {
+        "beansenchants:soul_steal": 2
+      }
+    }
+  }
+}

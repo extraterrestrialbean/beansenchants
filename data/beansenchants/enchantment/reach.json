@@ -1,0 +1,17 @@
+{
+    "description": "Pincing",
+    "supported_items": "#beansenchants:enchantable/tools",
+    "primary_items": "#minecraft:enchantable/mining",
+    "slots": ["mainhand"],
+    "weight": 1,
+    "anvil_cost": 2,
+    "min_cost": {
+        "base": 8,
+        "per_level_above_first": 2
+    },
+    "max_cost": {
+        "base": 29,
+        "per_level_above_first": 5
+    },
+    "max_level": 3
+}

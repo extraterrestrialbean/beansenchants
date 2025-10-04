@@ -1,0 +1,2 @@
+execute if predicate beansenchants:soul_steal_lv_1 if entity @s[type=#minecraft:arrows] run particle soul ~ ~0.15 ~ 0 0 0 0.01 1 normal @a
+execute if predicate beansenchants:soul_steal_lv_2 if entity @s[type=#minecraft:arrows] run particle soul ~ ~0.15 ~ 0.15 0.15 0.15 0.01 3 normal @a
