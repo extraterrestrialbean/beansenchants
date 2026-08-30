@@ -1,6 +1,19 @@
 {
     "pack": {
-        "description": "§6Created by extraterrestrial bean!",
+        "description": [
+            {
+                "text": "Report issues on Discord! (",
+                "color": "gold"
+            },
+            {
+                "text": "https://discord.com/jmVGMvtrcd",
+                "color": "red"
+            },
+            {
+                "text": ")",
+                "color": "gold"
+            }
+        ],
         "min_format": [94,1],
         "max_format": [107,1]
     }
